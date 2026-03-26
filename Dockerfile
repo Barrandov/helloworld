@@ -1,5 +1,5 @@
 # Этап 1: Сборка Vite проекта (Node.js)
-FROM node:18-alpine AS builder
+FROM node:22-alpine AS builder
 
 # Устанавливаем рабочую директорию внутри контейнера
 WORKDIR /app
